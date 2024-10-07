@@ -1,0 +1,110 @@
+#header {
+  background-image: url(./img/background.png);
+  width: 1440px;
+  height: 793px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-left: 195px;
+}
+
+#navLinks {
+  margin-left: 80px;
+}
+
+a {
+  cursor: pointer;
+}
+
+#main-conteiner {
+  width: Fixed (699px) px;
+  height: Hug (432px) px;
+  padding: 55px 0px 40px 0px;
+}
+
+#main-conteiner #h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: center;
+}
+
+#h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 176px;
+}
+
+.main2 {
+  height: 872px;
+  background-color: #fafafa;
+}
+
+.sponsors {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  margin-bottom: 80px;
+}
+.sp1 {
+  width: 103px;
+  height: 34px;
+}
+
+.sp2 {
+  width: 83px;
+  height: 59px;
+}
+
+.sp3 {
+  width: 102px;
+  height: 75px;
+}
+
+.sp4 {
+  width: 104px;
+  height: 42px;
+}
+
+.sp5 {
+  width: 104px;
+  height: 62px;
+}
+
+.sp6 {
+  width: 76px;
+  height: 72px;
+}
+
+.subscribe {
+  margin: 0 auto;
+  width: 1048px;
+  height: 124px;
+  padding: 30px 50px 30px 50px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+
+#label{
+  height: 58px;
+}
+
+#price1{
+  height: 665px;
+  margin-top: 40px;
+}
+#price2{
+  height: 705px;
+}
+
+#pr2{
+  background: #252B42;
+}

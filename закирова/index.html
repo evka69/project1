@@ -4,11 +4,382 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/style.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 <body>
+  <header class="text-gray-600 body-font" id="header">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        
+        <span class="ml-3 text-xl  text-white font-bold text-base" id="logo">BrandName</span>
+      </a>
+      <nav class=" flex flex-wrap items-center text-base justify-center text-white" id="navLinks">
+        <a class="mr-5 hover:text-gray-900 text-sm">Home</a>
+        <a class="mr-5 hover:text-gray-900 text-sm">Product</a>
+        <a class="mr-5 hover:text-gray-900 text-sm">Pricing</a>
+        <a class="mr-5 hover:text-gray-900 text-sm">Contact</a>
+      </nav>
+      <div class="md:ml-60 flex flex-wrap items-center text-base justify-center  login">
+      <a href="#" class="text-white mr-11 hover:text-gray-500 text-sm">Login</a>
+      <button class="inline-flex items-center bg-blue-400 border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-white md:mt-0 hover:text-blue-400 text-sm">Become a member
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+
+    <section class="text-gray-600 body-font" id="main-conteiner">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="text-white  title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" id="h1">We Ensure A Best <br> Insurance Service</h1>
+          <p class="text-white  mb-8 mt-10 leading-relaxed font-medium">We know how large objects will act, but things on a <br>
+            small scale just do not act that way.</p>
+          <div class="flex justify-center">
+            <button class="inline-flex text-white bg-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg rounded-3xl">Get Quote Now</button>
+            <button class="ml-4 inline-flex text-white   border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg rounded-3xl">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="cards">
+      <section class="text-gray-600 body-font" id="cards">
+    <div class="container px-5 ">
+      <div class="flex flex-wrap justify-center -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-80 ">
+          <div class="bg-white border-2 border-gray-200 px-4 py-6 shadow-2xl">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 ml-10" viewBox="0 0 24 24">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+            <h2 class="ml-10 text-left title-font font-medium text-3xl text-gray-900" id="h2">Peace of Mind</h2>
+            <p class="ml-10 text-left leading-relaxed">the quick fox jumps over the 
+              lazy dog</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="bg-white border-2 border-gray-200 px-4 py-6 shadow-2xl">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 ml-10" viewBox="0 0 24 24">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+            <h2 class="ml-10 text-left title-font font-medium text-3xl text-gray-900" id="h2">Set For Life</h2>
+            <p class="ml-10 text-left leading-relaxed">the quick fox jumps over the 
+              lazy dog</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="bg-blue-400  px-4 py-6 shadow-2xl">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-white w-12 h-12 mb-3 ml-10" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="ml-10 text-left title-font font-medium text-3xl text-white" id="h2">100% Satisfaction</h2>
+            <p class="ml-10 text-left leading-relaxed text-white">the quick fox jumps over the 
+              lazy dog</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+    </div>
+
+  </header>
+  <div class="main">
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        
+        <div class="flex justify-center flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Peace of Mind</h2>
+              <p class="leading-relaxed text-base">So it really behaves like neither. 
+                Now we have given up. </p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Set For Life</h2>
+              <p class="leading-relaxed text-base">They were used to create the 
+                machines that launched </p>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">100% Satisfaction</h2>
+              <p class="leading-relaxed text-base">So it really behaves like neither. 
+                Now we have given up. </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="main2 ">
+    <div class="team">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-4xl title-font mb-4 text-gray-900 font-bold">Industry</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Problems trying to resolve the conflict between <br>
+            the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+    <section class="text-gray-600 body-font">
+      <div class="container px-5  mx-auto">
+        <div class="flex flex-wrap justify-center -m-4 gap-14">
+          <div class="lg:w-1/5 lg:mb-0 mb-6 p-4 border-2 border-gray-200 border-2 border-gray-200">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-30 h-30 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./assets/img/us1.png">
+              <p class="leading-relaxed">Slate helps you see how <br>
+many more days you need <br>
+to work to reach your financial <br>
+goal for the month and year.</p>
+              <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+              <p class="text-gray-500">Senior Product Designer</p>
+            </div>
+          </div>
+          <div class="lg:w-1/5 lg:mb-0 mb-6 p-4 border-2 border-gray-200">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-30 h-30 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./assets/img/us2.png">
+              <p class="leading-relaxed">Slate helps you see how <br>
+many more days you need <br> 
+to work to reach your financial <br>
+goal for the month and year.</p>
+              <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+              <p class="text-gray-500">UI Develeoper</p>
+            </div>
+          </div>
+          <div class="lg:w-1/5 lg:mb-0 p-4 border-2 border-gray-200">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-30 h-30 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./assets/img/us3.png">
+              <p class="leading-relaxed">Slate helps you see how <br>
+many more days you need <br>
+to work to reach your financial <br>
+goal for the month and year.</p>
+              <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+              <p class="text-gray-500">CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+  <div class="main3 flex justify-center">
+    <div class="sponsors">
+    <img src="./assets/img/spon1.png" alt="" class="sp1">
+    <img src="./assets/img/spon2.png" alt="" class="sp2">
+    <img src="./assets/img/spon3.png" alt="" class="sp3">
+    <img src="./assets/img/spon4.png" alt="" class="sp4">
+    <img src="./assets/img/spon5.png" alt="" class="sp5">
+    <img src="./assets/img/spon6.png" alt="" class="sp6">
+  </div>
+  </div>
+  
+  <div class="subscribe">
+    <div class="card-item">
+      <div class="flexRow flex">
+        <div class="h11">
+           <h1 class="text-white font-bold text-2xl">Subscribe For Latest 
+          Newsletter</h1>
+        </div>
+       
+        <div class="relative  lg:w-full xl:w-1/2 w-2/4 md:w-full  text-left">
+          <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-blue-200 focus:bg-transparent border border-gray-300 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" id="label">
+        </div>
+        <button class="inline-flex text-white bg-blue-500 border-0 py-4 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Subscribe</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pricing ">
+    <section class="text-gray-600 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-4xl text-2xl  title-font mb-4 text-gray-900 font-bold">Price</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Problems trying to resolve the conflict between <br>
+            the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <div class="flex flex-wrap -m-4 justify-center">
+          <div class="p-4 xl:w-1/5 md:w-1/2 w-full -mr-8"id="price1">
+            <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden" >
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-2xl title-font mb-4 text-gray-900 font-bold">FREE</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Organize across all 
+                  apps by hand </p>
+              </div>
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$72</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/5 md:w-1/2 w-full -mr-8"id="price2">
+            <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden" id="pr2">
+              
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$38</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2 text-white">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2 text-white">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2 text-white">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-6 text-white">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/5 md:w-1/2 w-full" id="price1">
+            <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden" >
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">BUSINESS</h2>
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$56</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 </body>
 </html>
